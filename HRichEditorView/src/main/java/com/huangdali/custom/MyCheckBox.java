@@ -2,8 +2,8 @@ package com.huangdali.custom;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.support.v7.widget.AppCompatCheckBox;
 import android.util.AttributeSet;
-import android.widget.CheckBox;
 import android.widget.CompoundButton;
 
 import com.hdl.hricheditorview.R;
@@ -14,7 +14,7 @@ import com.hdl.hricheditorview.R;
  * Created by HDL on 2017/2/18.
  */
 
-public class MyCheckBox extends CheckBox {
+public class MyCheckBox extends AppCompatCheckBox {
     private static final String TAG = "MyCheckBox";
     private int unCheckedResId;
     private int checkedResId;
